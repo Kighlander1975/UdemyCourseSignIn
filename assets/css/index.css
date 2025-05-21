@@ -14,6 +14,7 @@
 }
 h1,h2,h3 {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 h1 {
 	font-size: 5.61rem;
@@ -58,13 +59,37 @@ small {
 }
 
 body {
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	display: flex;
 	height: 100vh;
-	
 	.cont {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 		width: 100%;
 		border: 3px solid red;
+	}
+	.left{
+		gap: 8rem;
+		background-color: var(--color2);
+		background-image: url('../img/pngegg_bigger2.png');
+		background-position: center 150px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		.text-container {
+			color: var(--color1);
+			text-align: center;
+			h6 {
+				font-weight: 200;
+			}
+			span{
+				color: var(--color5);
+			}
+		}
+		img {
+			width: 75%;
+		}
 	}
 }
 
@@ -85,7 +110,7 @@ font-family: 'Roboto', sans-serif;
 
 @media (min-width: 768px) {
 	html {
-		font-size: 1.1rempx;
+		font-size: 1.1rem;
 	}
 	.container {
 		width: 85%;
