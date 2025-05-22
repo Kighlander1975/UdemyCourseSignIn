@@ -3,16 +3,19 @@
 <html lang="de">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport"
+		      content="width=device-width, initial-scale=1.0">
 		<title>Sign In / Sign Up Page</title>
 		<meta name="description"
 		      content="A modern Sign In / Sign Up Page with HTML and CSS. This page is responsive and works on all devices. It is also accessible for screen readers.">
-		<meta name="author" content="Kighlander">
+		<meta name="author"
+		      content="Kighlander">
 		<meta name="robots"
 		      content="index, follow">
 		<meta http-equiv="X-UA-Compatible"
 		      content="IE=edge">
-		<link href="./assets/img/favicon.ico" rel="icon">
+		<link href="./assets/img/favicon.ico"
+		      rel="icon">
 		<!-- Open Graph / Facebook -->
 		<meta property="og:title"
 		      content="Sign In / Sign Up Page">
@@ -48,6 +51,79 @@
 			<img src="./assets/img/19162174_small.png"
 			     alt="DJ Controller von Denon, Bildquelle: https://www.thomann.de/de/denon_dj_prime_4_white.htm">
 		</div>
-		<div class="right cont"></div>
+		<div class="right cont">
+			<img src="assets/img/KIGHLANDER_LOGO.png"
+			     alt="Logo von Kighlander">
+			<form class="container"
+			      action="#"
+			      method="POST">
+				<div class="inputs-container">
+					<div class="text-inputs">
+						<div class="form-input">
+							<label for="username"
+							       aria-label="Benutzernamen eingeben">
+								Username
+							</label>
+							<input type="text"
+							       class="form-control"
+							       name="username"
+							       id="username"
+							       placeholder="Username">
+						</div>
+						<div class="form-input">
+							<label for="email"
+							       aria-label="Email-Adresse eingeben">
+								Email
+							</label>
+							<input type="email"
+							       class="form-control"
+							       name="email"
+							       id="email"
+							       placeholder="Your@email.tld">
+						</div>
+						<div class="form-input">
+							<label for="password"
+							       aria-label="Password eingeben">
+								Password
+							</label>
+							<input type="password"
+							       class="form-control"
+							       name="password"
+							       id="password"
+							       placeholder="Password">
+						</div>
+						<div class="form-input">
+							<label for="password-confirm"
+							       aria-label="Passwort wiederholen">
+								Confirm your password
+							</label>
+							<input type="password"
+							       class="form-control"
+							       name="password-confirm"
+							       id="password-confirm"
+							       placeholder="Confirm password">
+						</div>
+					</div>
+					<div class="checkbox-inputs">
+						<div class="form-input">
+							<input type="checkbox"
+							       name="tos"
+							       id="tos">
+							<label for="tos">
+								<small><span>*</span>Terms of service</small>
+							</label>
+						</div>
+						<div class="form-input">
+							<input type="checkbox"
+							       name="newsletter"
+							       id="newsletter">
+							<label for="newsletter">
+								<small>I want the newsletter</small>
+							</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
 	</body>
 </html>
