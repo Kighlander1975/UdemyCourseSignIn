@@ -133,7 +133,7 @@ body {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			padding: 4rem 0rem 0rem 0rem;
+			padding: 4rem 0 0 0;
 			gap: 4rem;
 			.inputs-container {
 				width: 100%;
